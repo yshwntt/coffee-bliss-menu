@@ -1,0 +1,28 @@
+<section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="images/latte.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>$4.50</p>
+            <button onclick="addToCart(4.5, 'Latte')">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>$3.00</p>
+            <button onclick="addToCart(3.0, 'Espresso')">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>$4.00</p>
+            <button onclick="addToCart(4.0, 'Cappuccino')">Add to Cart</button>
+        </div>
+    </div>
+    <div class="cart">
+        <h3>Cart</h3>
+        <ul id="cart-items"></ul>
+        <p><strong>Subtotal:</strong> $<span id="subtotal">0.00</span></p>
+    </div>
+</section>
